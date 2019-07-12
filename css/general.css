@@ -113,6 +113,9 @@ body *, html * {
 }
 
 @media screen and (min-width: 1024px){
+    .content {
+        margin: 60px auto;
+    }
     .project__list {
         justify-content: space-between;
     }
