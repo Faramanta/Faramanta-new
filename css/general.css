@@ -61,17 +61,18 @@ body *, html * {
 }
 .project__list {
     display: flex;
-    justify-content: space-around;
+	gap: 20px;
+    justify-content: center;
     flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .project__item {
-    margin: 0 0 40px;
+    margin: 0;
     width: 270px;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding: 0;
     text-align: center;
 }
 .project__item:empty {
@@ -115,9 +116,6 @@ body *, html * {
 @media screen and (min-width: 1024px){
     .content {
         margin: 60px auto;
-    }
-    .project__list {
-        justify-content: space-between;
     }
 }
 
